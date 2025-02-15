@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Dorameon.Web</PackageId>
+        <Version>1.0.0-alpha</Version>
+        <Authors>Wassim Alshami</Authors>
+        <Company>Free</Company>
+        <Description>not now </Description>
+        <PackageTags>Jwt</PackageTags>
+        <RepositoryUrl>https://gitlab.com/Wassim221e_Back-End/doraemon</RepositoryUrl>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Configurations>Debug;Release;</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.12" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.1" />
+        <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
+        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.3.1" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.3.1" />
+    </ItemGroup>
+</Project>
