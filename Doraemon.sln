@@ -1,12 +1,27 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doraemon.Web", "Doraemon.Web\Doraemon.Web.csproj", "{B7ECE2A0-FFD7-4BCA-871F-55CCC4FD3293}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{874491C6-116D-45AB-B136-2E86021F1339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Api", "Sample.Api\Sample.Api.csproj", "{202C6473-69D1-427A-B996-C683B9EB02FC}"
+EndProject
 Global
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B7ECE2A0-FFD7-4BCA-871F-55CCC4FD3293}.|Any CPU.ActiveCfg = |Any CPU
-		{B7ECE2A0-FFD7-4BCA-871F-55CCC4FD3293}.|Any CPU.Build.0 = |Any CPU
-	EndGlobalSection
+
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		|Any CPU = |Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7ECE2A0-FFD7-4BCA-871F-55CCC4FD3293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7ECE2A0-FFD7-4BCA-871F-55CCC4FD3293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7ECE2A0-FFD7-4BCA-871F-55CCC4FD3293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7ECE2A0-FFD7-4BCA-871F-55CCC4FD3293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202C6473-69D1-427A-B996-C683B9EB02FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202C6473-69D1-427A-B996-C683B9EB02FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202C6473-69D1-427A-B996-C683B9EB02FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202C6473-69D1-427A-B996-C683B9EB02FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{202C6473-69D1-427A-B996-C683B9EB02FC} = {874491C6-116D-45AB-B136-2E86021F1339}
 	EndGlobalSection
 EndGlobal
