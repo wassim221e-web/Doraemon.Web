@@ -1,9 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <ProductName>Doraemon.Web.Alpha</ProductName>
+        <Product>Doraemon.Web.Alpha</Product>
+        <PackageId>Doraemon.Web.Alpha</PackageId>
+        <Authors>Wassim221e</Authors>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/wassim221e-web/Doraemon.Web</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/wassim221e-web/Doraemon.Web</RepositoryUrl>
+        <PackageTags>dotnet, csharp, web, api, CleanArchitecture, DDD</PackageTags>
+        <Description>Domain-Driven Design (DDD) &amp; Clean Architecture with common design patterns.</Description>
+        <TargetFramework>net8.0</TargetFramework>
+        <Version>1.0.1-alpha</Version>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.13" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.5.0" />
+    </ItemGroup>
 
 </Project>
